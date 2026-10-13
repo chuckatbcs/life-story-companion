@@ -4,7 +4,7 @@ Public landing page and availability hub for **The Life Story Companion**, the s
 
 ## Purpose
 
-This repository is intentionally public and contains only material safe to publish: product information, availability notices, documentation, compatibility status, and routing links to official purchase/install channels.
+This repository is intentionally public and contains only material safe to publish: product information, availability notices, documentation, compatibility status, support information, and routing links to official purchase/install channels.
 
 The proprietary interview engine, prompt logic, memory architecture, ingestion logic, paid packages, licensing implementation, and paywall source are **not** stored here.
 
@@ -46,14 +46,17 @@ Public compatibility page:
 
 Source/status detail: [`COMPATIBILITY.md`](COMPATIBILITY.md).
 
-## Public policy pages
+## Public support and policy pages
 
-Pre-release policy pages are available at:
+Current pre-release routes:
 
-- `https://chuckatbcs.github.io/life-story-companion/privacy.html`
-- `https://chuckatbcs.github.io/life-story-companion/terms.html`
+- support: `https://chuckatbcs.github.io/life-story-companion/support.html`
+- privacy: `https://chuckatbcs.github.io/life-story-companion/privacy.html`
+- terms: `https://chuckatbcs.github.io/life-story-companion/terms.html`
 
-They intentionally describe the current pre-release state and must be reviewed and finalized before a paid production release.
+The support page currently routes pre-release product/documentation questions to this public repository's issue tracker and warns users not to post private family-story material there.
+
+The privacy and terms pages intentionally describe the current pre-release state. Production retention/deletion values, commercial license terms, and any hosted-service disclosures must be finalized before a paid production release.
 
 ## Brand and future-edition flexibility
 
@@ -63,4 +66,4 @@ Do not hard-code public branding, navigation, permanent URLs, or the Companion's
 
 ## Status
 
-Pre-release. No purchase, download, marketplace listing, or publicly supported platform adapter is live yet.
+Pre-release. No purchase, proprietary download, marketplace listing, or publicly supported platform adapter is live yet.
