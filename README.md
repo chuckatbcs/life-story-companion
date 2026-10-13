@@ -40,6 +40,8 @@ A public compatibility claim should follow tested adapter work covering, as appl
 
 Until a platform adapter passes that review, the public site should describe the product as **pre-release** and avoid unsupported compatibility claims.
 
+See [`COMPATIBILITY.md`](COMPATIBILITY.md) for the current public validation status.
+
 ## Brand and future-edition flexibility
 
 Keep the Companion and its public website **family-role neutral**. The current published journal began with Dad, but future legacy products may extend to Mom, Grandpa, Grandma, children, or other family relationships.
