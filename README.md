@@ -46,6 +46,15 @@ Public compatibility page:
 
 Source/status detail: [`COMPATIBILITY.md`](COMPATIBILITY.md).
 
+## Public policy pages
+
+Pre-release policy pages are available at:
+
+- `https://chuckatbcs.github.io/life-story-companion/privacy.html`
+- `https://chuckatbcs.github.io/life-story-companion/terms.html`
+
+They intentionally describe the current pre-release state and must be reviewed and finalized before a paid production release.
+
 ## Brand and future-edition flexibility
 
 Keep the Companion and its public website **family-role neutral**. The current published journal began with Dad, but future legacy products may extend to Mom, Grandpa, Grandma, children, or other family relationships.
