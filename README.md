@@ -40,7 +40,11 @@ A public compatibility claim should follow tested adapter work covering, as appl
 
 Until a platform adapter passes that review, the public site should describe the product as **pre-release** and avoid unsupported compatibility claims.
 
-See [`COMPATIBILITY.md`](COMPATIBILITY.md) for the current public validation status.
+Public compatibility page:
+
+`https://chuckatbcs.github.io/life-story-companion/compatibility.html`
+
+Source/status detail: [`COMPATIBILITY.md`](COMPATIBILITY.md).
 
 ## Brand and future-edition flexibility
 
