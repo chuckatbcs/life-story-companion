@@ -25,7 +25,16 @@ A platform may support the Companion's interview and drafting method while still
 
 ## Current validation track
 
-An initial OpenAI plugin-format adapter is under internal compatibility testing. This is **not yet a public support claim or a public download**.
+An initial OpenAI plugin-format adapter has passed internal static package checks and is awaiting live installed-runtime testing.
+
+A separate internal MCP persistence prototype has also been built to validate durable project continuity, evidence/source tracking, bounded context loading, and project export. That persistence layer is **not yet part of a public release and is not yet a supported-platform claim**.
+
+The testing sequence is intentionally conservative:
+
+1. validate the skill's activation and interviewing behavior;
+2. validate file/source handling and evidence discipline;
+3. validate durable state, export, and recovery through the persistence layer;
+4. publish a compatibility claim only after the exact supported configuration passes.
 
 The permanent availability page will be updated when a platform passes the applicable live tests and an authorized install/purchase path exists.
 
