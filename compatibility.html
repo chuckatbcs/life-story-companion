@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Current compatibility status for the Life Story Companion AI skill, including platform validation, persistence, export, and privacy boundaries.">
+<title>Compatibility | The Life Story Companion</title>
+<meta name="theme-color" content="#0b2133">
+<style>
+:root{--navy:#0b2133;--navy2:#163a55;--cream:#f8f1e5;--paper:#fffdf8;--gold:#d9a54c;--gold2:#f0c875;--ink:#172231;--muted:#68727d;--line:#e8dfd1;--soft:#f4ead9}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.55}a{color:#23577a}.wrap{max-width:980px;margin:auto;padding:0 24px}.top{background:linear-gradient(135deg,var(--navy),var(--navy2));color:white;border-bottom:1px solid rgba(255,255,255,.1)}.nav{min-height:68px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{color:white;text-decoration:none;font-size:20px}.back{color:var(--cream);font:700 14px system-ui,sans-serif;text-decoration:none}.hero{padding:76px 0 58px}.eyebrow{font:800 12px system-ui,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--gold2)}h1{font-size:clamp(42px,7vw,68px);line-height:1.02;margin:10px 0 16px}.lead{max-width:760px;color:#d6e0e7;font-size:20px}.status{display:inline-block;margin-top:22px;padding:9px 13px;border-radius:999px;background:var(--gold2);color:#172231;font:800 12px system-ui,sans-serif;letter-spacing:.06em;text-transform:uppercase}main{padding:56px 0 78px}h2{font-size:34px;line-height:1.1;margin:44px 0 12px}.intro{font-size:18px;color:var(--muted)}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:24px}.card{border:1px solid var(--line);border-radius:16px;background:white;padding:24px}.card h3{margin:0 0 8px;font-size:21px}.card p{margin:0;color:var(--muted)}.good{border-left:5px solid var(--gold)}.pending{border-left:5px solid #7892a6}.note{margin-top:26px;padding:22px 24px;background:var(--soft);border-radius:14px}.note strong{color:#8b5f24}.check{padding-left:20px}.check li{margin:8px 0}.foot{background:#071724;color:#cad4dc;padding:32px 0;font:13px/1.6 system-ui,sans-serif}.foot a{color:var(--gold2)}
+@media(max-width:720px){.grid{grid-template-columns:1fr}.hero{padding:54px 0 42px}.nav{align-items:flex-start;flex-direction:column;padding:16px 0}.wrap{padding:0 18px}}
+</style>
+</head>
+<body>
+<header class="top">
+<div class="wrap nav"><a class="brand" href="./">❦ The Life Story Companion</a><a class="back" href="./">← Back to overview</a></div>
+<div class="wrap hero">
+<div class="eyebrow">Platform compatibility</div>
+<h1>Compatibility is tested, not assumed.</h1>
+<p class="lead">The Life Story Companion is an AI skill for use inside a compatible AI assistant. A platform will only be called supported after the exact adapter and persistence configuration has been tested for the parts of a long-form life-story project that matter.</p>
+<span class="status">Pre-release validation</span>
+</div>
+</header>
+<main><div class="wrap">
+<h2>What we validate</h2>
+<p class="intro">Being able to paste instructions into a chat is not enough. A supported configuration needs to behave reliably across interviewing, evidence handling, source continuity, persistence, portability, and recovery.</p>
+<div class="grid">
+<div class="card good"><h3>Interview behavior</h3><p>Natural follow-ups, one question at a time, no checklist drift, and clear separation between capture, interview, archive, research, draft, and review modes.</p></div>
+<div class="card good"><h3>Evidence discipline</h3><p>REMEMBERED, FAMILY_LORE, DOCUMENTED, INFERRED, and UNRESOLVED remain distinct instead of being silently blended into certainty.</p></div>
+<div class="card pending"><h3>Durable project state</h3><p>Chronology, people, places, sources, contradictions, open loops, coverage, and privacy state must survive beyond one conversation when durable continuity is claimed.</p></div>
+<div class="card pending"><h3>Export and recovery</h3><p>Project state needs a documented path out of the platform, plus tested backup and recovery behavior rather than a one-way lock-in.</p></div>
+</div>
+
+<h2>Current validation track</h2>
+<div class="grid">
+<div class="card good"><h3>OpenAI plugin-format skill adapter</h3><p><strong>Static package checks: passed.</strong> The adapter preserves the Companion method, evidence classes, no-invention rules, family-role neutrality, and book/skill separation.</p></div>
+<div class="card pending"><h3>OpenAI live installed runtime</h3><p><strong>Pending.</strong> Activation, instruction following, file behavior, limitations, and the exact install surface still need controlled live testing before any support claim is made.</p></div>
+<div class="card good"><h3>Companion persistence prototype</h3><p><strong>Internal prototype built.</strong> A local-first MCP state layer now covers structured project state, source references, bounded working snapshots, and export.</p></div>
+<div class="card pending"><h3>Persistence + platform integration</h3><p><strong>Pending.</strong> The MCP state layer is not part of a public package until live connection, backup, recovery, and data-boundary tests pass on the supported host.</p></div>
+</div>
+
+<div class="note"><strong>No public compatibility claim yet.</strong> No purchase, public skill download, or officially supported platform adapter is live. This page will change only when testing justifies a stronger statement.</div>
+
+<h2>What “supported” will mean</h2>
+<ul class="check">
+<li>installation and updates are repeatable;</li>
+<li>the skill activates when appropriate and stays out of unrelated work;</li>
+<li>source files and transcripts are handled predictably;</li>
+<li>provenance and uncertainty are preserved;</li>
+<li>durable state behavior is verified where claimed;</li>
+<li>export and recovery work in practice;</li>
+<li>privacy and data-boundary language matches the actual host behavior;</li>
+<li>known limitations are disclosed rather than hidden.</li>
+</ul>
+
+<h2>Why the caution?</h2>
+<p class="intro">A family legacy project may contain private recordings, photographs, documents, names, dates, and sensitive memories. The Companion is being designed so its workflow remains portable and its claims remain narrower than the capabilities actually tested.</p>
+</div></main>
+<footer class="foot"><div class="wrap"><strong>The Life Story Companion</strong><br>© 2026 C.B. Ventures. All rights reserved.<br><a href="./">Permanent availability page</a></div></footer>
+</body>
+</html>
