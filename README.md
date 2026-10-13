@@ -4,7 +4,7 @@ Public landing page and availability hub for **The Life Story Companion**, the s
 
 ## Purpose
 
-This repository is intentionally public and contains only material safe to publish: product information, availability notices, documentation, and routing links to official purchase/install channels.
+This repository is intentionally public and contains only material safe to publish: product information, availability notices, documentation, compatibility status, and routing links to official purchase/install channels.
 
 The proprietary interview engine, prompt logic, memory architecture, ingestion logic, paid packages, licensing implementation, and paywall source are **not** stored here.
 
@@ -22,6 +22,24 @@ That address is designed to be safe to print in the paperback and encode in its 
 - **Life Story Companion** — separately licensed AI skill used inside a compatible AI assistant.
 - **life-story-companion-premium** — private source repository for proprietary/paywalled product code and packaging.
 
+## Compatibility policy
+
+Do not advertise a platform as supported merely because the core instructions can be pasted into it.
+
+A public compatibility claim should follow tested adapter work covering, as applicable:
+
+- installation and update path;
+- durable project state;
+- source/file handling;
+- transcript ingestion;
+- provenance and source references;
+- export/portability;
+- recovery behavior;
+- known platform limitations;
+- data-boundary disclosure.
+
+Until a platform adapter passes that review, the public site should describe the product as **pre-release** and avoid unsupported compatibility claims.
+
 ## Brand and future-edition flexibility
 
 Keep the Companion and its public website **family-role neutral**. The current published journal began with Dad, but future legacy products may extend to Mom, Grandpa, Grandma, children, or other family relationships.
@@ -30,4 +48,4 @@ Do not hard-code public branding, navigation, permanent URLs, or the Companion's
 
 ## Status
 
-Pre-release. No purchase, download, or marketplace listing is live yet.
+Pre-release. No purchase, download, marketplace listing, or publicly supported platform adapter is live yet.
