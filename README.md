@@ -19,8 +19,14 @@ That address is designed to be safe to print in the paperback and encode in its 
 ## Product relationship
 
 - **The Life Story Handbook** — standalone paperback methodology.
-- **Life Story Companion** — separately licensed digital product.
+- **Life Story Companion** — separately licensed AI skill used inside a compatible AI assistant.
 - **life-story-companion-premium** — private source repository for proprietary/paywalled product code and packaging.
+
+## Brand and future-edition flexibility
+
+Keep the Companion and its public website **family-role neutral**. The current published journal began with Dad, but future legacy products may extend to Mom, Grandpa, Grandma, children, or other family relationships.
+
+Do not hard-code public branding, navigation, permanent URLs, or the Companion's core product language around one family role unless a deliberately separate edition requires it. The shared system should remain reusable across a broader family-legacy series without forcing a rebrand.
 
 ## Status
 
