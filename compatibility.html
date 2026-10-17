@@ -5,7 +5,7 @@
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-535CGDS8Q7');</script>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Current compatibility status for the Life Story Companion AI skill, including platform validation, persistence, export, and privacy boundaries.">
+<meta name="description" content="Current compatibility status for the Life Story Companion AI skill, including platform validation, host memory and files, and privacy boundaries.">
 <title>Compatibility | The Life Story Companion</title>
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <meta name="theme-color" content="#0b2133">
@@ -21,38 +21,38 @@
 <div class="wrap hero">
 <div class="eyebrow">Platform compatibility</div>
 <h1>Compatibility is tested, not assumed.</h1>
-<p class="lead">The Life Story Companion is an AI skill for use inside a compatible AI assistant. A platform will only be called supported after the exact adapter and persistence configuration has been tested for the parts of a long-form life-story project that matter.</p>
-<span class="status">Pre-release validation</span>
+<p class="lead">The Life Story Companion is a downloadable AI skill for use inside a compatible AI assistant. C.B. Ventures does not host a project server for this product. A platform will only be called supported after the skills-only adapter has been tested for the parts of a long-form life-story project that matter on that host.</p>
+<span class="status">Adapters: not yet supported</span>
 </div>
 </header>
 <main><div class="wrap">
 <h2>What we validate</h2>
-<p class="intro">Being able to paste instructions into a chat is not enough. A supported configuration needs to behave reliably across interviewing, evidence handling, source continuity, persistence, portability, and recovery.</p>
+<p class="intro">Being able to paste instructions into a chat is not enough. A supported skills-only configuration needs to behave reliably across interviewing, evidence handling, and honest use of the host's memory, files, and export features.</p>
 <div class="grid">
 <div class="card good"><h3>Interview behavior</h3><p>Natural follow-ups, one question at a time, no checklist drift, and clear separation between capture, interview, archive, research, draft, and review modes.</p></div>
 <div class="card good"><h3>Evidence discipline</h3><p>REMEMBERED, FAMILY_LORE, DOCUMENTED, INFERRED, and UNRESOLVED remain distinct instead of being silently blended into certainty.</p></div>
-<div class="card pending"><h3>Durable project state</h3><p>Chronology, people, places, sources, contradictions, open loops, coverage, and privacy state must survive beyond one conversation when durable continuity is claimed.</p></div>
-<div class="card pending"><h3>Export and recovery</h3><p>Project state needs a documented path out of the platform, plus tested backup and recovery behavior rather than a one-way lock-in.</p></div>
+<div class="card pending"><h3>Host memory and files</h3><p>The skill helps the buyer's AI keep chronology, people, places, sources, and open loops in the host's own memory or project files when those features exist. That is not a C.B. Ventures hosted database.</p></div>
+<div class="card pending"><h3>Export and portability</h3><p>Where the host allows it, the method should encourage exportable notes and source files so the project is not trapped in one chat thread. Host limits will be disclosed.</p></div>
 </div>
 
 <h2>Current validation track</h2>
 <div class="grid">
 <div class="card good"><h3>OpenAI plugin-format skill adapter</h3><p><strong>Static package checks: passed.</strong> The adapter preserves the Companion method, evidence classes, no-invention rules, family-role neutrality, and book/skill separation.</p></div>
 <div class="card pending"><h3>OpenAI live installed runtime</h3><p><strong>Pending.</strong> Activation, instruction following, file behavior, limitations, and the exact install surface still need controlled live testing before any support claim is made.</p></div>
-<div class="card good"><h3>Companion persistence prototype</h3><p><strong>Internal prototype built.</strong> A local-first MCP state layer now covers structured project state, source references, bounded working snapshots, and export.</p></div>
-<div class="card pending"><h3>Persistence + platform integration</h3><p><strong>Pending.</strong> The MCP state layer is not part of a public package until live connection, backup, recovery, and data-boundary tests pass on the supported host.</p></div>
+<div class="card good"><h3>Optional local tools (not hosted)</h3><p><strong>Internal/optional.</strong> Local utilities and an optional local MCP prototype may exist for developers or advanced buyers who run them themselves. They are not a C.B. Ventures cloud service and are not required for the skills-only product.</p></div>
+<div class="card pending"><h3>Host continuity testing</h3><p><strong>Pending.</strong> Live tests must confirm how the skill uses each host's memory and files, and must disclose limits—without claiming Companion-hosted storage.</p></div>
 </div>
 
-<div class="note"><strong>No public compatibility claim yet.</strong> No purchase, public skill download, or officially supported platform adapter is live. This page will change only when testing justifies a stronger statement.</div>
+<div class="note"><strong>Purchase is live; platform support is not.</strong> The Premium Skill is available as a $49 one-time downloadable package via the <a href="./#availability">availability section</a> (Stripe Payment Link). No officially supported platform adapter is listed yet. Buying the skill does not include a C.B. Ventures hosted project server or hosted MCP. This page changes only when skills-only testing justifies a support claim.</div>
 
 <h2>What “supported” will mean</h2>
 <ul class="check">
 <li>installation and updates are repeatable;</li>
 <li>the skill activates when appropriate and stays out of unrelated work;</li>
-<li>source files and transcripts are handled predictably;</li>
+<li>source files and transcripts are handled predictably on the host;</li>
 <li>provenance and uncertainty are preserved;</li>
-<li>durable state behavior is verified where claimed;</li>
-<li>export and recovery work in practice;</li>
+<li>the skill uses host memory/files for continuity where available, without claiming a Companion server;</li>
+<li>export guidance matches what the host actually supports;</li>
 <li>privacy and data-boundary language matches the actual host behavior;</li>
 <li>known limitations are disclosed rather than hidden.</li>
 </ul>
