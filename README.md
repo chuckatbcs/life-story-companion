@@ -66,4 +66,11 @@ Do not hard-code public branding, navigation, permanent URLs, or the Companion's
 
 ## Status
 
-Pre-release. No purchase, proprietary download, marketplace listing, or publicly supported platform adapter is live yet.
+The Companion skill is pre-release. No Companion purchase, proprietary download, or publicly supported platform adapter is live yet.
+
+Paperback books by C.B. Ventures that are listed on Amazon:
+
+- [Dad, Your Story Belongs With Us](https://www.amazon.com/dp/B0HMNS1M5X)
+- [Mythic Goddesses: An Illustrated Coloring Journey](https://www.amazon.com/dp/B0HMH3HT31)
+
+*The Life Story Handbook* is not listed.
