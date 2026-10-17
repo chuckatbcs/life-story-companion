@@ -16,7 +16,7 @@
 <body>
 <header class="top"><div class="wrap nav"><a class="brand" href="./">❦ The Life Story Companion</a><a class="back" href="./">← Back to overview</a></div><div class="wrap hero"><div class="eyebrow">Privacy</div><h1>Private family stories deserve clear boundaries.</h1><p class="lead">This page describes the current pre-release privacy posture of The Life Story Companion. Platform-specific disclosures will be updated before any customer-facing release.</p></div></header>
 <main><div class="wrap">
-<div class="note"><strong>Current status: pre-release.</strong> No public Life Story Companion purchase, customer account system, public proprietary download, or production Companion-hosted MCP service is live yet.</div>
+<div class="note"><strong>Current status: pre-release.</strong> The Companion is intended as a downloadable AI skill only. C.B. Ventures does not operate a production Companion-hosted project database or MCP service for this product. No customer account system for Companion-hosted storage is live.</div>
 <h2>What the public website collects</h2>
 <p>The public availability website is informational. It does not currently provide a form for uploading interviews, recordings, family documents, photographs, payment information, or Life Story Companion project data.</p>
 <p class="muted">The website is hosted through GitHub Pages. Hosting and browser/network infrastructure may process ordinary technical request data according to their own policies.</p>
@@ -24,18 +24,18 @@
 <p>A life-story project may include names, relationships, dates, photographs, recordings, transcripts, documents, private memories, and other personal or family information. Because those materials can be sensitive, the Companion is designed around explicit visibility labels, source provenance, exportability, and narrow data-use claims.</p>
 <h2>Platform data boundaries</h2>
 <p>The Life Story Companion is an AI skill used inside a compatible AI assistant. Data handling therefore depends in part on the specific host platform, adapter, storage configuration, and features the user enables.</p>
-<p>Before a platform is listed as supported, its compatibility documentation must disclose what the host stores, what any Companion service stores, what remains in the user's own files, what data may leave the user's environment, and how export or deletion works where supported.</p>
-<h2>Companion-managed durable state</h2>
-<p>An internal persistence prototype exists for development, but it is not a public production service. No public claim of Companion-managed cross-session storage will be made until the exact storage, transport, authentication, backup, recovery, retention, export, and deletion behavior has been tested and documented.</p>
+<p>Before a platform is listed as supported, its compatibility documentation must disclose what the <strong>host</strong> stores, what remains in the user's own files, what data may leave the user's environment, and how export or deletion works where the host supports it. The skills-only product does not add a separate C.B. Ventures project server.</p>
+<h2>Continuity without a Companion server</h2>
+<p>Cross-session continuity for the downloadable skill depends on the host AI's memory, project files, and the user's own exports—not on Companion-managed cloud storage. Optional local developer prototypes are not a public hosted service. A future hosted offer, if ever sold separately, would be disclosed here before any Companion-server retention claims are made.</p>
 <h2>Visibility and control</h2>
 <p>The Companion method uses the concepts <code>PRIVATE</code>, <code>FAMILY</code>, <code>PUBLIC</code>, and <code>RESTRICTED_UNTIL</code> when the host permits them. The skill is designed not to publish, externally share, change visibility, or conduct external research without appropriate user authorization.</p>
 <h2>Raw sources and generated material</h2>
 <p>The Companion is designed to keep recordings, transcripts, photographs, and documents conceptually separate from summaries and generated prose. A summary is not treated as a replacement for the raw source.</p>
 <h2>Payments and licensing</h2>
-<p>No payment or customer entitlement system is live yet. If commercial distribution is activated later, this page will be updated before production use to describe any customer-account, purchase, licensing, and service-provider data flows that apply.</p>
+<p>The Premium Skill is sold as a one-time checkout through Stripe. After payment, a download link is emailed for a skills-only package used inside your compatible AI assistant. C.B. Ventures does not operate a Companion-hosted project database or require a Companion cloud account for that purchase. Stripe processes payment details; this public website does not collect card numbers. Licensing and support terms may be refined as platform adapters are tested and listed.</p>
 <h2>Changes to this notice</h2>
 <p>This pre-release notice may change as supported platforms and distribution methods are finalized. Material changes will be reflected at this permanent public destination before the associated production capability is represented as available.</p>
-<p class="muted">Last updated: October 13, 2026.</p>
+<p class="muted">Last updated: October 16, 2026.</p>
 </div></main>
 <footer class="foot"><div class="wrap"><strong>The Life Story Companion</strong><br>© 2026 C.B. Ventures. All rights reserved.<br><a href="./">Availability</a> · <a href="compatibility.html">Compatibility</a> · <a href="terms.html">Terms</a></div></footer>
 </body>

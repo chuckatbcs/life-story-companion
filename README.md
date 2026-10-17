@@ -26,17 +26,17 @@ That address is designed to be safe to print in the paperback and encode in its 
 
 Do not advertise a platform as supported merely because the core instructions can be pasted into it.
 
-A public compatibility claim should follow tested adapter work covering, as applicable:
+A public compatibility claim should follow tested **skills-only** adapter work covering, as applicable:
 
 - installation and update path;
-- durable project state;
-- source/file handling;
-- transcript ingestion;
+- use of the host AI's memory, project files, and exports for continuity (not a C.B. Ventures hosted database);
+- source/file handling on that host;
+- transcript ingestion where the host allows it;
 - provenance and source references;
-- export/portability;
-- recovery behavior;
 - known platform limitations;
-- data-boundary disclosure.
+- data-boundary disclosure for the host platform.
+
+Do not describe Companion-hosted MCP or server-side project storage as part of the current downloadable skill SKU.
 
 Until a platform adapter passes that review, the public site should describe the product as **pre-release** and avoid unsupported compatibility claims.
 
@@ -66,9 +66,13 @@ Do not hard-code public branding, navigation, permanent URLs, or the Companion's
 
 ## Status
 
-The Companion skill is pre-release. No Companion purchase, proprietary download, or publicly supported platform adapter is live yet.
+The **Life Story Companion Premium Skill** is available as a $49 one-time purchase (skills-only download for use inside a compatible AI assistant; no C.B. Ventures hosted project server):
 
-Paperback books by C.B. Ventures that are listed on Amazon:
+[Buy the Premium Skill](https://buy.stripe.com/6oUfZi3J9cCp7ey36Y3oA00)
+
+Public platform adapters remain listed only after skills-only compatibility testing. Until a platform is listed on the [compatibility page](https://chuckatbcs.github.io/life-story-companion/compatibility.html), treat installer claims as not yet supported.
+
+Paperback books by C.B. Ventures that are listed on Amazon (neither includes the Companion skill):
 
 - [Dad, Your Story Belongs With Us](https://www.amazon.com/dp/B0HMNS1M5X)
 - [Mythic Goddesses: An Illustrated Coloring Journey](https://www.amazon.com/dp/B0HMH3HT31)
